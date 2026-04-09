@@ -1,0 +1,20 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     'bin/eda_solver'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _is_safe_placement, symObjAddr: 0x0, symBinAddr: 0x100002F5C, symSize: 0x1B0 }
+  - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: _is_safe_placement, symObjAddr: 0x0, symBinAddr: 0x100002F5C, symSize: 0x1B0 }
+  - { offsetInCU: 0xBD, offset: 0xBD, size: 0x8, addend: 0x0, symName: _place_component, symObjAddr: 0x1B0, symBinAddr: 0x10000310C, symSize: 0xE8 }
+  - { offsetInCU: 0x143, offset: 0x143, size: 0x8, addend: 0x0, symName: _remove_component, symObjAddr: 0x298, symBinAddr: 0x1000031F4, symSize: 0xE4 }
+  - { offsetInCU: 0x1AD, offset: 0x1AD, size: 0x8, addend: 0x0, symName: _is_area_sufficient, symObjAddr: 0x37C, symBinAddr: 0x1000032D8, symSize: 0xB8 }
+  - { offsetInCU: 0x229, offset: 0x229, size: 0x8, addend: 0x0, symName: _forward_check, symObjAddr: 0x434, symBinAddr: 0x100003390, symSize: 0x15C }
+  - { offsetInCU: 0x2EB, offset: 0x2EB, size: 0x8, addend: 0x0, symName: _solve_placement, symObjAddr: 0x590, symBinAddr: 0x1000034EC, symSize: 0x18C }
+  - { offsetInCU: 0x26, offset: 0x457, size: 0x8, addend: 0x0, symName: _create_grid, symObjAddr: 0x0, symBinAddr: 0x100003678, symSize: 0xAC }
+  - { offsetInCU: 0xF0, offset: 0x521, size: 0x8, addend: 0x0, symName: _create_grid, symObjAddr: 0x0, symBinAddr: 0x100003678, symSize: 0xAC }
+  - { offsetInCU: 0x150, offset: 0x581, size: 0x8, addend: 0x0, symName: _free_grid, symObjAddr: 0xAC, symBinAddr: 0x100003724, symSize: 0x98 }
+  - { offsetInCU: 0x190, offset: 0x5C1, size: 0x8, addend: 0x0, symName: _print_grid, symObjAddr: 0x144, symBinAddr: 0x1000037BC, symSize: 0x140 }
+  - { offsetInCU: 0x1EC, offset: 0x61D, size: 0x8, addend: 0x0, symName: _load_components, symObjAddr: 0x284, symBinAddr: 0x1000038FC, symSize: 0x1A8 }
+  - { offsetInCU: 0x292, offset: 0x6C3, size: 0x8, addend: 0x0, symName: _load_grid, symObjAddr: 0x42C, symBinAddr: 0x100003AA4, symSize: 0xA8 }
+  - { offsetInCU: 0x26, offset: 0x92F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003B4C, symSize: 0x188 }
+  - { offsetInCU: 0x41, offset: 0x94A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003B4C, symSize: 0x188 }
+...
