@@ -13,6 +13,9 @@ The core logic of the solver is broken down into three fundamental steps:
 
 3. **The Crucial Step (Look-Ahead / Forward Checking):** After making the assumption in Node 1, immediately perform a forward check across all remaining empty nodes. If the placement in Node 1 causes any other unassigned node to have zero valid solutions left, the assumption in Node 1 is immediately deemed invalid. The algorithm backtracks instantly, discarding the assumption before wasting computational power on subsequent, doomed steps.
 
+**Flowchart**
+![CSP Solver Flowchart](assets/images/Flowchart_CSP_Solver.png)
+
 ## Computer Science Context
 While formulated independently, this logic perfectly mirrors the architecture of an advanced Constraint Satisfaction Problem (CSP) solver:
 * Step 1 aligns with **Domain Pruning**.
